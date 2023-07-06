@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+.form-container {
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    
+  }
+      .icon {
+    padding: 7px;
+    background: blue;
+    color: white;
+    min-width: 5px;
+    max-height: 15px;
+    margin: 1.5px;
+
+  }
+ textarea{
+  border: solid;
+}

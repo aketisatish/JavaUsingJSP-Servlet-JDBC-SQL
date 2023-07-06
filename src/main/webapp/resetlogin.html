@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="resetlogin.css">
+</head>
+<body>
+	<div class="img-container">
+		<img alt="no img" src="reset.jpg" width="900px" height="600px">
+	</div>
+	<div class="form-contaier">
+		<form method="post" action="PasswordResetServlet">
+			<a href="index.html">HOME</a>&nbsp;&nbsp; <a href="index.html">ABOUT</a>&nbsp;&nbsp;
+			<a href="registration.html">REGISTRATION FORM</a>&nbsp;&nbsp; <a
+				href="login.html">APPLICATION LOGIN</a>&nbsp;&nbsp; <a
+				href="resetlogin.html">PASSWORD RESET</a>&nbsp;&nbsp; <a
+				href="ViewServlet"><input type="submit" value="service"></a>&nbsp;&nbsp;
+			<a href="SearchServlet"><input type="submit" value="Search"></a>&nbsp;&nbsp;
+			<fieldset>
+				<legend style="text-align: center;">Reset Password</legend>
+				<div>
+					<h3>Enter Email:</h3>
+					<input class="input-field" type="email" name="email"
+						placeholder="Enter Your Email">
+				</div>
+				<div>
+					<h3>CurrentPassword:</h3>
+					<input class="input-field" type="password" name="password"
+						placeholder="Enter New Password">
+				</div>
+				<div>
+					<h3>ConfirmPassword:</h3>
+					<input class="input-field" type="password" name="confirmpassword"
+						placeholder="Enter Confirm Password">
+				</div>
+				<div class="btn">
+					<input type="submit" value="Reset">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

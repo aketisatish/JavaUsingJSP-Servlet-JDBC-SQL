@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="registration.css">
+</head>
+
+<body style="background-image: url('register.jpg'); ">
+	
+	<form  method="post" action="RegisterServlet">
+		<a href="index.html">HOME</a>&nbsp;&nbsp;
+					<a href="index.html">ABOUT</a>&nbsp;&nbsp;
+				<a href="registration.html">REGISTRATION FORM</a>&nbsp;&nbsp;
+					<a href="login.html">APPLICATION LOGIN</a>&nbsp;&nbsp;
+					<a href="resetlogin.html">PASSWORD RESET</a>&nbsp;&nbsp;
+				<a href="ViewServlet" ><input type="submit" value="service"></a>&nbsp;&nbsp;
+					<a href="SearchServlet" ><input type="submit" value="Search"></a>&nbsp;&nbsp;
+	
+			<h1 style="text-align: center;">Registration Form</h1>
+        <center>
+			<table >
+				<tr>
+					<td><i class="fa fa-user icon"></i>
+					 <input type="text"	name="username" placeholder="UserName"></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-lock icon"></i> 
+					<input type="password" name="password" placeholder="Enter Password"></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-lock icon"></i>
+					 <input type="email" name="email" placeholder="Enter Email"></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-solid fa-globe icon"></i> 
+					<select name="selectcountry">
+							<option>Select Country</option>
+							<option>India</option>
+							<option>USA</option>
+							<option>Dubai</option>
+							<option>South Koria</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-solid fa-graduation-cap icon"></i> 
+					<input type="checkbox" value="Diploma" name="qualification">Diploma
+						<input type="checkbox" value="B-tech" name="qualification">B-tech
+						<input type="checkbox" value="M-tech" name="qualification">M-tech
+
+					</td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-user icon"></i>
+					<input type="radio" value="male" name="gender">Male 
+					<input type="radio"	value=female name="gender">Female</td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-envelope-open icon" ></i><select name="technologies" size="3" multiple>
+							<option>Corejava</option>
+							<option>AdvJava</option>
+							<option>Spring</option>
+							<option>SpringBoot</option>
+							<option>MicroServices</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td><i class="fa fa-address-card icon"></i> 
+					<input type="text" placeholder="Area" name="address">&nbsp&nbsp
+					 <input	type="text" placeholder="city" name="address"><br> 
+						<input type="text" placeholder="state" name="address">
+             <input type="text" placeholder="pincode" name="address"></td>
+				</tr>
+
+				<tr>
+					<td>Comments: <textarea rows="5" cols="50" name="comments"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Register"></td>
+				</tr>
+			</table>
+
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+		<div class="img-container">
+		<img src="login.jpg" alt="no img" width="900px" height="600px">
+		</div>
+		<div class="form-container">
+		<form method="post" action="LoginServlet">
+		
+		<a href="index.html">HOME</a>&nbsp;&nbsp;
+					<a href="index.html">ABOUT</a>&nbsp;&nbsp;
+				<a href="registration.html">REGISTRATION FORM</a>&nbsp;&nbsp;
+					<a href="login.html">APPLICATION LOGIN</a>&nbsp;&nbsp;
+					<a href="resetlogin.html">PASSWORD RESET</a>&nbsp;&nbsp;
+				<a href="ViewServlet" ><input type="submit" value="service"></a>&nbsp;&nbsp;
+					<a href="SearchServlet" ><input type="submit" value="Search"></a>&nbsp;&nbsp;
+			<fieldset>
+				<h1 style="padding-right: 140px;">Login Form...</h1>
+				<div>
+					<h3>Enter Email:</h3><br>
+					<input style="color: blue;" class="input-field" type="text" name="email"
+						placeholder="Enter Email Address " />
+				</div>
+				<div>
+					<h3>Password:</h3>
+					<input style="color: blue;" class="input-field" type="password" name="password"
+						placeholder="Enter Password" />
+				</div>
+				
+				<div>
+					<input type="submit" value="LOGIN">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	</body>
+</html>
